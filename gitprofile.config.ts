@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'mkeya013', // Your GitHub org/user name. (This is the only required config)
+    username: 'mahmudaKeya', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -20,124 +20,167 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed.
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // Manually specify projects
       },
     },
-    // external: {
-    //   header: 'My Projects',
-    //   // To hide the `External Projects` section, keep it empty.
-    //   projects: [
-    //     {
-    //       title: 'Project Name',
-    //       description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //       imageUrl:
-    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-    //       link: 'https://example.com',
-    //     },
-    //     {
-    //       title: 'Project Name',
-    //       description:
-    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //       imageUrl:
-    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-    //       link: 'https://example.com',
-    //     },
-    //   ],
-    // },
+    external: {
+      header: 'My Projects',
+      projects: [
+        {
+          title: 'Hosting a PHP Application with AWS',
+          description:
+            'Created a scalable setup with an EC2 instance (t2.micro) hosting a PHP application in a private subnet. Used RDS MySQL (t2.micro) in a private subnet for application data. Enabled autoscaling (2 instances) and set up ALB with CloudFront for secure browsing via subdomains. Used an existing wildcard certificate from AWS Certificate Manager for ALB/CloudFront (HTTP/HTTPS).',
+          imageUrl:
+            'https://cdn.icon-icons.com/icons2/2415/PNG/512/aws_icon_146437.png',
+          link: '#',
+        },
+        {
+          title: 'Terraform Automation for ECR and ECS',
+          description:
+            'Automated the creation and configuration of AWS ECR repositories and ECS services using Terraform for streamlined container deployment.',
+          imageUrl:
+            'https://static-00.iconduck.com/assets.00/terraform-icon-453x512-9qod433d.png',
+          link: '#',
+        },
+        {
+          title: 'GKE Pod Failure Slack Notifications',
+          description:
+            'Used Terraform, Google Cloud Platform (Pub/Sub, Cloud Functions), and Python to send a notification message to Slack upon GKE pod failure.',
+          imageUrl:
+            'https://cdn.icon-icons.com/icons2/2699/PNG/512/google_cloud_logo_icon_169343.png',
+          link: '#',
+        },
+        {
+          title: 'Dockerization of a 3-Tier Web Application',
+          description:
+            'Containerized a 3-tier web application (PHP) using Docker, enabling consistent environments and simplifying deployment.',
+          imageUrl:
+            'https://cdn.icon-icons.com/icons2/2415/PNG/512/docker_plain_wordmark_logo_icon_146506.png',
+          link: '#',
+        },
+      ],
+    },
   },
-  seo: { title: 'Portfolio of Mahmuda Akter Keya', description: '', imageURL: '' },
+  seo: {
+    title: 'Portfolio of Mahmuda Akter Keya',
+    description: 'DevOps and Cloud Engineer',
+    imageURL: '',
+  },
   social: {
-    linkedin: 'mahmuda-keya-',
-    researchGate: 'https://www.researchgate.net/profile/Mahmuda-Keya?ev=hdr_xprf',
+    linkedin: 'mahmuda-keya-8b727917b',
+    github: 'mahmudaKeya',
     email: 'mahmudakeya013@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Add a link to your resume here.
   },
   skills: [
     'PHP',
-    'Laravel',
+    'Java',
+    'Python',
+    'HCL',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'MySQL',
+    'RDBMS',
+    'Flask',
+    'Django',
+    'Ansible',
+    'Jenkins',
+    'Docker',
+    'Terraform',
+    'Kubernetes',
+    'AWS',
+    'Google Cloud',
+    'Linux',
+    'Windows',
   ],
   experiences: [
     {
-      company: 'University of Massachusetts Dartmouth',
-      position: 'Research Assistant',
-      from: 'January 2024',
+      company: 'BJIT',
+      position: 'DevOps and Cloud Engineer',
+      from: 'August 2023',
       to: 'Present',
+      companyLink: '',
     },
     {
-      company: 'Bjit',
-      position: 'DevOps and Cloud Engineer',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'BJIT',
+      position: 'Trainee Software Engineer- DevOps and Cloud',
+      from: 'April 2023',
+      to: 'July 2023',
+      companyLink: '',
+    },
+    {
+      company: 'Zuu.co.jp',
+      position: 'SRE Intern',
+      from: 'December 2022',
+      to: 'February 2023',
+      companyLink: '',
+    },
+    {
+      company: 'Venturas',
+      position: 'Japanese Language and Technical Training',
+      from: 'May 2022',
+      to: 'November 2022',
+      companyLink: '',
+    },
+    {
+      company: 'Banglalink',
+      position: 'Virtual Intern',
+      from: 'August 2021',
+      to: 'October 2021',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Programming for Everybody (Getting Started with Python)',
+      body: 'Coursera',
+      year: '', // Add year if available
+      link: '#', // Add link to certificate
+    },
+    {
+      name: 'Python Data Structures',
+      body: 'Coursera',
+      year: '', // Add year if available
+      link: '#', // Add link to certificate
+    },
+    {
+      name: 'Google Cloud Platform Fundamentals: Core Infrastructure',
+      body: 'Coursera',
+      year: '', // Add year if available
+      link: '#', // Add link to certificate
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'BRAC University',
+      degree: 'Bachelor of Computer Science, Major in Software Engineering',
+      from: '2018',
+      to: '2022',
+    },
+    {
+      institution: 'Viqarunnisa Noon College',
+      degree: 'HSC (Science)',
       from: '2015',
-      to: '2019',
+      to: '2017',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      institution: 'Viqarunnisa Noon School & College',
+      degree: 'SSC (Science)',
+      from: '',
+      to: '2015',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -147,19 +190,9 @@ const CONFIG = {
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -199,14 +232,11 @@ const CONFIG = {
       'procyon',
     ],
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made with <a
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
-
   enablePWA: true,
 };
 
