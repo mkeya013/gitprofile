@@ -67,7 +67,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Mahmuda Akter Keya',
-    description: 'DevOps and Cloud Engineer',
+    description: 'Research Assistant',
     imageURL: '',
   },
   social: {
@@ -79,17 +79,11 @@ const CONFIG = {
     fileUrl: '', // Add a link to your resume here.
   },
   skills: [
-    'PHP',
     'Java',
     'Python',
     'HCL',
-    'JavaScript',
     'HTML',
     'CSS',
-    'MySQL',
-    'RDBMS',
-    'Flask',
-    'Django',
     'Ansible',
     'Jenkins',
     'Docker',
@@ -97,15 +91,21 @@ const CONFIG = {
     'Kubernetes',
     'AWS',
     'Google Cloud',
-    'Linux',
-    'Windows',
   ],
   experiences: [
+    {
+      company: 'University of Massachusetts Dartmouth',
+      position: 'Research Assistant',
+      from: 'January 2024',
+      to: 'Present',
+      companyLink: '',
+    },
+    
     {
       company: 'BJIT',
       position: 'DevOps and Cloud Engineer',
       from: 'August 2023',
-      to: 'Present',
+      to: 'December 2023',
       companyLink: '',
     },
     {
@@ -169,12 +169,6 @@ const CONFIG = {
       degree: 'HSC (Science)',
       from: '2015',
       to: '2017',
-    },
-    {
-      institution: 'Viqarunnisa Noon School & College',
-      degree: 'SSC (Science)',
-      from: '',
-      to: '2015',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
