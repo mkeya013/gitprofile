@@ -53,26 +53,9 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Mahmuda Akter Keya', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/mahmuda-keya-/',
+    researchGate: 'https://www.researchgate.net/profile/Mahmuda-Keya?ev=hdr_xprf',
+    email: 'mahmudakeya013@gmail.com',
   },
   resume: {
     fileUrl:
@@ -100,11 +83,10 @@ const CONFIG = {
       position: 'Research Assistant',
       from: 'January 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'Bjit',
+      position: 'DevOps and Cloud Engineer',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
