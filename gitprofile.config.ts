@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Mahmuda Akter Keya', description: '', imageURL: '' },
   social: {
-    linkedin: 'https://www.linkedin.com/in/mahmuda-keya-/',
+    linkedin: 'mahmuda-keya-',
     researchGate: 'https://www.researchgate.net/profile/Mahmuda-Keya?ev=hdr_xprf',
     email: 'mahmudakeya013@gmail.com',
   },
